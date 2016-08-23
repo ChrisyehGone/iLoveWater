@@ -11,6 +11,10 @@
 		B50BCFE21D6C4552007D0A2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50BCFE11D6C4552007D0A2F /* ViewController.swift */; };
 		B50BCFE41D6C4552007D0A2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50BCFE31D6C4552007D0A2F /* Assets.xcassets */; };
 		B50BCFE71D6C4552007D0A2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50BCFE51D6C4552007D0A2F /* Main.storyboard */; };
+		B50BCFF11D6C73A3007D0A2F /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50BCFF01D6C73A3007D0A2F /* MainWindow.swift */; };
+		B50BCFF51D6C87E5007D0A2F /* Yesterday.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50BCFF41D6C87E5007D0A2F /* Yesterday.storyboard */; };
+		B50BCFF71D6C888A007D0A2F /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50BCFF61D6C888A007D0A2F /* MainWindowController.swift */; };
+		B50BCFF91D6C8A95007D0A2F /* YesterdayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50BCFF81D6C8A95007D0A2F /* YesterdayController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		B50BCFE31D6C4552007D0A2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B50BCFE61D6C4552007D0A2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B50BCFE81D6C4552007D0A2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50BCFF01D6C73A3007D0A2F /* MainWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
+		B50BCFF41D6C87E5007D0A2F /* Yesterday.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Yesterday.storyboard; sourceTree = "<group>"; };
+		B50BCFF61D6C888A007D0A2F /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		B50BCFF81D6C8A95007D0A2F /* YesterdayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YesterdayController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				B50BCFE31D6C4552007D0A2F /* Assets.xcassets */,
 				B50BCFE51D6C4552007D0A2F /* Main.storyboard */,
 				B50BCFE81D6C4552007D0A2F /* Info.plist */,
+				B50BCFF01D6C73A3007D0A2F /* MainWindow.swift */,
+				B50BCFF41D6C87E5007D0A2F /* Yesterday.storyboard */,
+				B50BCFF61D6C888A007D0A2F /* MainWindowController.swift */,
+				B50BCFF81D6C8A95007D0A2F /* YesterdayController.swift */,
 			);
 			path = iLoveWater;
 			sourceTree = "<group>";
@@ -121,6 +133,7 @@
 			files = (
 				B50BCFE41D6C4552007D0A2F /* Assets.xcassets in Resources */,
 				B50BCFE71D6C4552007D0A2F /* Main.storyboard in Resources */,
+				B50BCFF51D6C87E5007D0A2F /* Yesterday.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B50BCFE21D6C4552007D0A2F /* ViewController.swift in Sources */,
+				B50BCFF11D6C73A3007D0A2F /* MainWindow.swift in Sources */,
+				B50BCFF71D6C888A007D0A2F /* MainWindowController.swift in Sources */,
 				B50BCFE01D6C4552007D0A2F /* AppDelegate.swift in Sources */,
+				B50BCFF91D6C8A95007D0A2F /* YesterdayController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

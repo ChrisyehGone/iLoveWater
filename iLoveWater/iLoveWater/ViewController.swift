@@ -7,12 +7,17 @@
 //
 
 import Cocoa
-
+protocol YesterdayDelegate {
+    func onSwitchToYesterday()
+}
 class ViewController: NSViewController {
+    var delegate : YesterdayDelegate?
 
+    @IBOutlet weak var backView: NSView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+//        self.backView.wantsLayer = true
+//        self.backView.layer?.backgroundColor = NSColor.whiteColor().CGColor
         // Do any additional setup after loading the view.
     }
 
@@ -22,6 +27,9 @@ class ViewController: NSViewController {
         }
     }
 
-
+    @IBAction func switchToYesterday(sender: AnyObject) {
+        print("switch to YesterdayStoryboard", terminator: "\n")
+        self.delegate?.onSwitchToYesterday()
+    }
 }
 
